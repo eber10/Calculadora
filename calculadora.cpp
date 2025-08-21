@@ -26,6 +26,9 @@ int main(){
             case 3:
                 break;
             case 4:
+                cout<<"Ingrese el valor de A: "; cin>>a;
+                cout<<"Ingrese el valor de B: "; cin>>b;
+                cout<<"\n la resta de A x B: "<<a*b<<endl
                 break;
             case 5:
                 salir=true;
