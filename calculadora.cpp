@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 int main(){
     int opcion, a, b;
@@ -24,11 +25,14 @@ int main(){
                 cout<<"\n la resta de A - B: "<<a-b<<endl;
                 break;
             case 3:
+            	cout<<"Ingrese el valor de A: "; cin>>a;
+                cout<<"Ingrese el valor de B: "; cin>>b;
+                cout<<"\n La division de A / B: "<<a/b<<endl;
                 break;
             case 4:
                 cout<<"Ingrese el valor de A: "; cin>>a;
                 cout<<"Ingrese el valor de B: "; cin>>b;
-                cout<<"\n la resta de A x B: "<<a*b<<endl
+                cout<<"\n la resta de A x B: "<<a*b<<endl;
                 break;
             case 5:
                 salir=true;
