@@ -35,6 +35,7 @@ int main(){
                 cout<<"\n la resta de A x B: "<<a*b<<endl;
                 break;
             case 5:
+                cout<<"saliendo..."<<endl;
                 salir=true;
                 break;
             default:
