@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int opcion;
+    bool salir=false;
+    do{
+        cout<<"BIENVENIDO AL SISTEMA DE CALCULOS"<<endl;
+        cout<<"---------------------------------"<<endl;
+        cout<<"1. suma "<<endl;
+        cout<<"2. resta "<<endl;
+        cout<<"3. division "<<endl;
+        cout<<"4. multiplicacion "<<endl;
+        cout<<"5. salir"<<endl;
+        cout<<"OPCION: "; cin>>opcion;
+        switch(opcion){
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                salir=true;
+                break;
+            default:
+            break;
+        }
+
+    }while(!salir);
+    return 0;
+}
