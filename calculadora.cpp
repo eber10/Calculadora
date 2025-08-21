@@ -19,6 +19,9 @@ int main(){
             	cout << "\nLa suma de A + B :  " << a + b << endl;
                 break;
             case 2:
+                cout<<"Ingrese el valor de A: "; cin>>a;
+                cout<<"Ingrese el valor de B: "; cin>>b;
+                cout<<"\n la resta de A - B: "<<a-b<<endl;
                 break;
             case 3:
                 break;
